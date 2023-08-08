@@ -41,11 +41,14 @@ const props = defineProps({
     type: String,
     default: "",
   },
+  ariaLabel: {
+    type: String,
+    default: "",
+  },
   field: {
     type: Object as () => FieldContext,
   },
 });
-
 </script>
 
 <template>
@@ -60,8 +63,8 @@ const props = defineProps({
         hide-details="auto"
         v-bind="field"
         @input="handleChange"
-       :placeholder="props.placeholder"
-      
+        :placeholder="props.placeholder"
+        :aria-label="props.ariaLabel"
       />
       <p class="error-message" v-show="errorMessage">
         {{ errorMessage }}

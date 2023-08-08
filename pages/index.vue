@@ -87,7 +87,7 @@ const removeAllItems = (key) => {
           >
         </v-card-actions>
         <v-card-text>
-          <v-list lines="two" height="250">
+          <v-list lines="two" height="250" aria-label="content-list">
             <div v-if="items.value?.length !== 0">
               <v-list-item
                 v-for="(item, idx) in items.value"
