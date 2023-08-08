@@ -53,10 +53,18 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      title: "Vuetify 3 + Nuxt 3 Starter",
-      titleTemplate: "%s | Vuetify 3 + Nuxt 3 Starter",
+      title: "To Do List",
       link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
-      meta: [],
+      meta: [
+        { name: "description", content: "To Do List" },
+        { name: "msapplication-TileColor", content: "#b91d47" },
+        { name: "theme-color", content: "#ffffff" },
+        {
+          name: "viewport",
+          content:
+            "minimum-scale=1, initial-scale=1.0, width=device-width , viewport-fit=cover",
+        },
+      ],
     },
   },
 });
