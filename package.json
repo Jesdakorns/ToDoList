@@ -1,0 +1,30 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.2",
+    "@mdi/js": "^7.2.96",
+    "@nuxt/devtools": "latest",
+    "@types/node": "^18.17.1",
+    "nuxt": "^3.6.5",
+    "sass": "^1.64.2"
+  },
+  "dependencies": {
+    "@kevinmarrec/nuxt-pwa": "^0.17.0",
+    "@mdi/font": "^7.2.96",
+    "@vee-validate/nuxt": "^4.11.1",
+    "@vee-validate/rules": "^4.11.1",
+    "fs": "^0.0.1-security",
+    "vee-validate": "^4.11.1",
+    "vite-plugin-vuetify": "^1.0.2",
+    "vuetify": "^3.3.11",
+    "yup": "^1.2.0"
+  }
+}
