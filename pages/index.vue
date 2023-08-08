@@ -73,7 +73,9 @@ const removeAllItems = (key) => {
           >
         </v-card-actions>
         <v-card-actions style="display: flex; justify-content: flex-end">
-          <v-btn color="red-darken-1" @click="removeAllItems">Clear all Items</v-btn>
+          <v-btn color="red-darken-1" @click="removeAllItems"
+            >Clear all Items</v-btn
+          >
         </v-card-actions>
         <v-card-text>
           <v-list lines="two" height="250">
@@ -113,11 +115,18 @@ body {
 }
 </style>
 <style scoped>
+@media only screen and (max-height: 600px) {
+  .center-content {
+    height: 100% !important;
+  }
+}
+
 .center-content {
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  height: 90vh;
 }
 
 .logo-not-data {
