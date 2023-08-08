@@ -5,6 +5,9 @@ Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introdu
 ## Demo
 https://to-do-list-nust-js.vercel.app/
 
+![image](https://github.com/Jesdakorns/ToDoList-NustJS/assets/52199797/1166b9b6-8763-4035-a2ce-d135c106d70e)
+
+
 ## Setup
 
 Make sure to install the dependencies:
