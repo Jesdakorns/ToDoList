@@ -59,7 +59,12 @@ const removeAllItems = (key) => {
         class="pa-4 rounded-lg"
       >
         <v-card-actions>
-          <Input name="list" v-bind="list" placeholder="Title" />
+          <Input
+            name="list"
+            v-bind="list"
+            placeholder="Title"
+            aria-label="input title"
+          />
         </v-card-actions>
         <v-card-actions>
           <v-btn
@@ -69,11 +74,15 @@ const removeAllItems = (key) => {
             rounded="lg"
             type="submit"
             color="indigo-darken-3"
+            aria-label="add item"
             >Add Item</v-btn
           >
         </v-card-actions>
         <v-card-actions style="display: flex; justify-content: flex-end">
-          <v-btn color="red-darken-1" @click="removeAllItems"
+          <v-btn
+            color="red-darken-1"
+            @click="removeAllItems"
+            aria-label="remove all items"
             >Clear all Items</v-btn
           >
         </v-card-actions>
@@ -97,6 +106,7 @@ const removeAllItems = (key) => {
                     color="error"
                     icon="mdi mdi-close-circle-outline"
                     variant="text"
+                    aria-label="remove item"
                   ></v-btn>
                 </template>
               </v-list-item>
