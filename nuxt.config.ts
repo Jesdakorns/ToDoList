@@ -16,7 +16,7 @@ export default defineNuxtConfig({
     // Other plugins
     // { src: "plugins/vee-validate.js", ssr: true },
   ],
-  build: { transpile: ["yup", "vuetify", "vee-validate/dist/rules"] },
+  build: { transpile: ["vuetify"] },
   modules: [
     [
       "@vee-validate/nuxt",
