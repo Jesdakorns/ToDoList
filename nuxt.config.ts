@@ -57,7 +57,7 @@ export default defineNuxtConfig({
       link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
       meta: [
         { name: "description", content: "To Do List" },
-        { name: "msapplication-TileColor", content: "#b91d47" },
+        { name: "msapplication-TileColor", content: "#e9f4ff" },
         { name: "theme-color", content: "#ffffff" },
         {
           name: "viewport",
